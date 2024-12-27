@@ -43,7 +43,7 @@ body {
   .content{
     position: relative;
     z-index:3;
-    line-height: 30px;
+    line-height: 40px;
   }
   
   fieldset{
