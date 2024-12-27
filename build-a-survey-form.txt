@@ -1,0 +1,61 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1 id="title">Hui's wedding shop</h1>
+  <p id="description">Pick the shelf you want!</p>
+  <form id="survey-form">
+    
+    <fieldset>
+      <label for="name" id="name-label">Enter Your Name:<input id="name" type="text" placeholder="name" required></label>
+      <label for="email" id="email-label">Enter Your Email:<input id="email" type="email" placeholder="xxxxxx@gmail.com" required></label>
+      <label for="number" id="number-label">Enter Your Number:<input id="number" type="number" max="10" min="10" placeholder="0123456789" required></label>
+    </fieldset>
+
+    <fieldset>
+      <label for="dropdown">which one do you want?
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">a1<option>
+        <option value="2">a2<option>
+        <option value="3">a3<option>
+        <option value="4">b1<option>
+        <option value="5">b2<option>
+        <option value="6">b3<option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Do you need someone to arrange it?</legend>
+      <label for="Yes"><input id="Yes" type="radio" name="account-type" value="Yes" checked>Yes</label>
+      <label for="No"><input id="No" type="radio" name="account-type" value="No" >No</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>What things are needed?</legend>
+      <label for="light"><input type="checkbox" id="light" value="light" >light</label>
+      <label for="candle"><input type="checkbox" id="candle" value="candle" >candle</label>
+       <label for="balloon"><input type="checkbox" id="balloon" value="balloon" >balloon</label>
+    </fieldset>
+
+    <label for="remarks">Other remarks
+<textarea id="remarks" name="remarks" rows="3" cols="30"></textarea></label>
+
+<input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
